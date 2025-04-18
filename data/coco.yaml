@@ -1,0 +1,13 @@
+# COCO 数据集配置
+
+# 训练集和验证集路径
+train: data/images/train  # 训练图像目录
+train_labels: data/labels/train  # 训练标签目录
+val: data/images/val  # 验证图像目录
+val_labels: data/labels/val  # 验证标签目录
+
+# 类别数量
+nc: 80  # 类别数量
+
+# 类别名称文件
+names: data/coco.names  # 类别名称文件路径
